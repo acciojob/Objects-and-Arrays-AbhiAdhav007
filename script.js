@@ -6,7 +6,12 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+let team = players;
 
+team1 = players.copy()
+
+// Create a copy of the person object
+cap1 = dict(person)
 window.players = players;
 window.person = person;
 window.team = team;
